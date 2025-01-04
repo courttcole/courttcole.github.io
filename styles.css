@@ -1,3 +1,60 @@
-#head {
-   text-align: center;
+/* universal */
+html {
+    background-color: rgb(34, 33, 32);
 }
+/* header */
+#head {
+    text-align: center;
+    color: rgb(235, 234, 244);
+    font-family: monospace;
+    font-weight: bold; 
+    margin-top: 10%;
+}
+
+.sub {
+    text-align: center;
+    font-family: monospace;
+    color: rgb(235, 234, 244);
+}
+
+/* table */
+table {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: solid rgb(235, 234, 244);
+}
+thead {
+    background-color:rgb(233, 112, 48);
+    border-radius: 40%;
+    color: rgb(235, 234, 244);
+}
+
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+td {
+    font-family: monospace;
+    background-color: rgb(233, 112, 48);
+    border: solid rgb(235, 234, 244);
+    padding: 10px;
+}
+
+td:hover {
+    background-color: rgba(233, 112, 48, 0.3);
+    color: rgb(235, 234, 244);
+}
+
+#position {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
