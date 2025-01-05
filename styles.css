@@ -84,10 +84,10 @@ td:hover {
 footer {
     color: rgb(235, 234, 244);
     font-family: monospace;
-    padding-top: 30px;
-    padding-bottom: 20px;
     text-align: center;
-    width: 50%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 
