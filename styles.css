@@ -3,26 +3,31 @@ html {
     background-color: rgb(34, 33, 32);
 }
 /* header */
-#head {
+header {
     text-align: center;
     color: rgb(235, 234, 244);
     font-family: monospace;
     font-weight: bold; 
+    font-size: 30px;
     margin: auto;
     width: 100%;
     padding-top: 40px;
 }
 
+nav {
+    margin: auto;
+}
+
 a {
     color: rgb(235, 234, 244);
     font-family: monospace;
+    font-size: 20px;
     font-weight: bold; 
     display: inline;
     text-align: center;
     text-decoration-style: dotted;
     list-style-type: none;
     padding: 0;
-    margin: auto;
     width: 50%;
 }
 
@@ -73,6 +78,15 @@ td:hover {
 
 #position {
     font-weight: bold;
+}
+
+/* footer */
+footer {
+    color: rgb(235, 234, 244);
+    font-family: monospace;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 
